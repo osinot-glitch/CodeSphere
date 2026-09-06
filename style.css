@@ -131,12 +131,35 @@ transition: 0.4s ease-in-out !important;
 .b2:hover{
     background-color: rgb(207, 207, 207);
 }
-
 footer{
     background-color: rgb(2, 2, 29);
     color: white;
     text-align: center;
     padding: 10px;
+    display: flex;
+    justify-content:center ;
+    gap: 200px;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+}
+footer  a{
+    color: white;
+    text-decoration: none;
+    margin-right: 200px;
+}
+footer h2{
+    margin-right: 200px;
+}
+footer h1{
+    margin-right: 200px;
+}
+footer p{
+     margin-right: 200px;
+}
+footer h3{
+    margin-top: 80px;
 }
 .why{
     padding: 30px 30px 50px;
@@ -167,39 +190,171 @@ font-size: 18px;
     text-align: center;
     height: 3cm;
 }
-.Contact{
-    margin-top: 50px;
-    display: flex;
+
+.ourcourses{
     justify-content: center;
-    padding-bottom: 8%;
-    gap: 220px;
-}
-.lets{
+    text-align: center;
     font-size: 22px;
 }
-input{
-    padding: 15px 150px;
-    margin-top: 15px;
-    border-radius: 5px;
-    border: 1px solid   rgb(77, 37, 255);
+.viewcourses{
+    display: flex;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
 }
-#message{
-    margin-top: 15px;
-     border: 1px solid   rgb(77, 37, 255);
-     border-radius: 5px;
+.viewcourses div{
+    box-shadow: 2px 2px 10px rgb(177, 177, 177);
+    border-radius: 10px;
+    padding: 20px 50px;
+    width: 6cm;
+    height: 9cm;
+}
+.viewcourses button{
+        background-color: rgb(254, 254, 255);
+    border-radius: 8px;
+    color:rgb(1, 131, 238) ;
+    font-size: 13px;
+    border: 1px solid rgb(1, 131, 238);
+    padding: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+transition: 0.4s ease-in-out !important;
+}
+.viewcourses button:hover{
+    background-color: rgb(216, 237, 254) ;
+}
+.aboucodeSphere{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    font-size: 20px;
+    margin: 50px;
+}
+.how{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 50px;
+}
+.how h1{
+    background-color: rgb(1, 131, 238);
+    border-radius: 100px;
+    width: 1.5cm;
+    color: white;
+    height: 1.3cm;
+    text-align: center;
+    justify-content: center;
+}
+.team img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.team{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+    margin: 50px;
+}
+.team div{
+    box-shadow: 2px 2px 10px rgb(177, 177, 177);
+    border-radius: 10px;
+    padding: 15px;
+}
+.plan{
+    display: flex;
+    justify-content: center; 
+    gap: 120px;
+    margin: 60px;
+}
+.free{
+    box-shadow: 2px 2px 10px rgb(199, 199, 199);
+    padding: 25px 50px;
+    border-radius: 10px;
+    width: 6cm;
+    height: 9cm;
+}
+.b4{
+ background-color: rgb(1, 131, 238);
+    border-radius: 8px;
+    color: white ;
+    border: none;
+    padding: 10px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-size: 13px;
+transition: 0.4s ease-in-out !important;
+}
+.b4:hover{
+    background-color: rgb(0, 92, 167);
+}
+
+.pro{
+     width: 6cm;
+    height: 9cm;
+    padding: 25px 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(1, 131, 238);
+}
+.b3{
+    background-color: rgb(254, 254, 255);
+    border-radius: 8px;
+    color: rgb(0, 0, 0) ;
+    border: 1px solid black;
+    padding: 10px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-size: 13px;
+transition: 0.4s ease-in-out !important;
+}
+.b3:hover{
+    background-color: rgb(209, 217, 253);
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin: 50px;
+    font-size: 20px;
+}
+.get{
+    box-shadow: 1px 2px 10px rgb(186, 186, 186);
+    padding: 50px 140px;
+    border-radius: 10px;
+}
+input{
+    padding: 12px 50px;
+    border-radius: 6px;
+    border: 1px solid rgb(1, 131, 238);
+    margin: 10px 0;
+    
+    text-align: center;
+}
+#subject{
+    padding: 12px 189px;
+}
+#Message{
+    text-align: center;
+    border-radius: 8px;
+     color: rgb(1, 131, 238);
+    border: 1px solid rgb(1, 131, 238);
+}
+::placeholder{
+    color: rgb(1, 131, 238);
 }
 #submit{
-     padding: 15px 170px;
-     background-color:   rgb(77, 37, 255);
-     font-weight: bold;
-     font-size: 18px;
+    padding: 14px 170px;
+     background-color: rgb(1, 131, 238);
      border: none;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
      color: white;
 }
 .send{
-    margin-top: 50px;
-}
-::placeholder{
-    color:  rgb(77, 37, 255);
-    text-align:center;
+    text-align: center;
+    box-shadow: 2px 2px 10px grey;
+    border-radius: 10px;
+    padding: 50px;
 }
