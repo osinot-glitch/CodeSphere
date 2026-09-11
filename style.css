@@ -70,7 +70,7 @@ span{
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  gap: 100px;
+  gap: 80px;
   margin-bottom: 80px;
   margin-left: 150px;
   margin-right: 150px;
@@ -78,7 +78,7 @@ span{
 .why1{
   display: flex;
   flex-wrap: wrap;
-  gap: 60px;
+  gap: 30px;
   justify-content: center;
 }
 .card1 div{
@@ -557,4 +557,77 @@ font-weight: bold;
     border-radius: 10px;
     padding: 30px;
 }
+}
+@media(max-width: 480px){
+    header{ 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0;
+        position: relative;
+        margin: 0;
+        padding: 8;
+        text-align: center;
+    }
+    body{
+       width: 100%;
+       font-size: 10px;
+        margin: 0;
+        padding: 0;
+    }
+     header button{
+        margin-left: 0;
+        font-size: 8px;
+        text-align: center;
+     }
+     header h1{
+        font-weight: bolder;
+        margin-right: 0;
+        text-align: center;
+        justify-content: center;
+     }
+   .hero{
+    display: flex;
+    flex-direction: column;
+    font-size: 8px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+   }
+   .hero h1{
+       font-size: 50px;
+   }
+}
+@media(max-width: 1023px){
+    header{ 
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        font-size: 8px;
+        position: relative;
+        margin: 0;
+        padding: 8;
+        text-align: center;
+    }
+    header h1{
+        margin-top: 15px;
+        margin-right: 50px;
+        font-size: 17px;
+    }
+    header a{
+       
+        font-size: 16px;
+    }
+    header button{
+        margin-top: 25px;
+        margin-left: 50px;
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        jus
+    }
 }
